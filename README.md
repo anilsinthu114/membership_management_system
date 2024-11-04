@@ -1,7 +1,3 @@
-Here's a README file template for a **Membership Management System** developed with Java, JSP, and Java EE:
-
----
-
 # Membership Management System
 
 ## Table of Contents
@@ -11,8 +7,7 @@ Here's a README file template for a **Membership Management System** developed w
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [Screenshots](#screenshots)
-7. [Folder Structure](#folder-structure)
-8. [License](#license)
+7. [License](#license)
 
 ---
 
@@ -56,8 +51,7 @@ The **Membership Management System** is a web application built to manage member
 
 2. **Configure Database**:
    - Create a database named `membership_db`.
-   - Import the SQL file provided in the `/db` folder.
-   - Update database credentials in the `DBConnection.java` file under `/src/utils`.
+   - Update database credentials in the `DBUtils.java` file under `/src/`.
 
 3. **Configure Apache Tomcat**:
    - Set up Apache Tomcat in your IDE or as a standalone server.
@@ -76,35 +70,13 @@ The **Membership Management System** is a web application built to manage member
 2. **Add New Members** to the system with details like name, contact, membership type, and start/end dates.
 3. **Update Memberships** to reflect changes in status, renewals, or expirations.
 4. **Search Members** by name, membership type, or status.
-5. **Generate Reports** to view active, expired, and pending memberships.
 
 ## Screenshots
 
 - **Login Page**
-- **Member List**
+  
+- **View Members**
 - **Add/Edit Member Form**
-- **Reports Page**
-
-## Folder Structure
-
-```
-membership-management-system/
-│
-├── src/
-│   ├── controllers/         # Servlets for handling requests
-│   ├── dao/                 # Data Access Objects for database interactions
-│   ├── models/              # Model classes representing entities
-│   ├── utils/               # Utility classes (e.g., DBConnection)
-│   └── webapp/
-│       ├── WEB-INF/         # Configurations, including web.xml
-│       ├── views/           # JSP files for frontend
-│       └── assets/          # Static files (CSS, JavaScript)
-│
-├── db/
-│   └── membership_db.sql    # SQL script for setting up database tables
-│
-└── README.md
-```
 
 ## License
 
